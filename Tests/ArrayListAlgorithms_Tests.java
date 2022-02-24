@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ArrayListAlgorithms_Tests {
 
-/*
+
     @Test
     public void fileDuplicatesTest() throws FileNotFoundException{
         ArrayList<Integer> expected = new ArrayList<>();
@@ -40,7 +40,7 @@ public class ArrayListAlgorithms_Tests {
      assertEquals(expected, actual);
     }
 
-*/
+
 
 
 

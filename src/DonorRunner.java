@@ -42,16 +42,16 @@ public class DonorRunner {
         for(int i=0; i<donorList.size()-1; i++ ){
             int largest= i;
            for(int j=i+1; j<donorList.size();j++){
-               if(donorList.get(j).getAmount()>donorList.get(largest).getAmount()){
-                   largest=j;
+               if(donorList.get(j).getAmount()>donorList.get(largest).getAmount()) {
+                   largest = j;
                }
+           }
                Donor temp=donorList.get(i);
                donorList.set(i,donorList.get(largest));
                donorList.set(largest,temp);
            }
         }
 
-    }
 
     public static double getDonatedAmount(String name) {
             int min = 0;

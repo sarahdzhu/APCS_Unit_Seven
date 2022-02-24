@@ -8,7 +8,7 @@ import java.util.Scanner;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MergeTest {
-/*
+
     @Test
     public void testMerging() throws IOException {
         Scanner nums = new Scanner(new File("files/mergeNums.txt"));
@@ -54,7 +54,7 @@ class MergeTest {
         assertEquals(mergeFiveSix, Merge.mergeLists(listFive, listSix));
     }
 
- */
+
 
 
 }
